@@ -9,3 +9,4 @@ The wavs are converted to *.mp3
 git add --all
 git push -u origin master
 \n git commit -am KOMENTAR
+ git config --global credential.helper cache
