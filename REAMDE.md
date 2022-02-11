@@ -7,3 +7,4 @@ The wavs are converted to *.mp3
 
 # GIt Command
 git add --all
+git push -u origin master
