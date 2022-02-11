@@ -8,3 +8,4 @@ The wavs are converted to *.mp3
 # GIt Command
 git add --all
 git push -u origin master
+\n git commit -am KOMENTAR
