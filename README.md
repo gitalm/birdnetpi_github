@@ -10,3 +10,4 @@ The wavs are converted to *.mp3
 * git push -u origin master
 * git commit -am KOMENTAR
 * git config --global credential.helper cache
+* git config --add remote.origin.push +refs/heads/master:refs/heads/gh-pages
