@@ -6,7 +6,7 @@ Data should be stored and analyzed within GitHUb
 The wavs are converted to *.mp3
 
 # GIt Command
-git add --all
-git push -u origin master
-\n git commit -am KOMENTAR
- git config --global credential.helper cache
+* git add --all
+* git push -u origin master
+* git commit -am KOMENTAR
+* git config --global credential.helper cache
