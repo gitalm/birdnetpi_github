@@ -5,10 +5,9 @@ Data should be stored and analyzed within GitHUb
 [] done with new version
 
 # Sync into GitHub
-https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option
+* [Quelle|https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option] 
 rsync -zarv --prune-empty-dirs --include "*/" --include="*.mp3" --exclude="*" /home/pi/BirdSongs/Extracted/By_Common_Name/ /home/pi/BirdNET-GitHub/
-https://stackoverflow.com/questions/38593855/replacing-commas-in-a-csv-file-with-sed-for-mongoimport
-sed -i 's/\;/\,/g' /home/pi/BirdNET-GitHub/BirdDB.txt 
+* [QUelle|https://stackoverflow.com/questions/38593855/replacing-commas-in-a-csv-file-with-sed-for-mongoimport] sed -i 's/\;/\,/g' /home/pi/BirdNET-GitHub/BirdDB.txt 
 
 # Git Command
 * git add --all
