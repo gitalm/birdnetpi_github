@@ -1,5 +1,18 @@
 # Test BirdNET Pi und GitHub
 
+#Preapre BirdnetPI
+* install wiringpi 
+> wget https://github.com/TheNextLVL/wiringPi/releases/download/2.46/wiringpi-2.46.deb
+> 
+> sudo apt install ./wiringpi-2.46.deb
+* install witty pi 
+* 
+> wget http://www.uugear.com/repo/WittyPi2/installWittyPi.sh
+> 
+> cd wittyPi/
+> 
+> sudo ./wittyPi.sh 
+> 
 Data should be stored and analyzed within GitHUb
 # File conversion
 [] done with new version
