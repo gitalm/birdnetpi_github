@@ -12,10 +12,14 @@
 > cd wittyPi/
 > 
 > sudo ./wittyPi.sh 
-> 
+
+>sudo crontab -e
+
+> 1 30 6-10 * * * sh /home/pi/birdnetpi_github/birdnetpi_github.sh
+
 Data should be stored and analyzed within GitHUb
 # File conversion
-[] done with new version
+* done with new version
 
 # D3.js
 * https://observablehq.com/@floatingpurr/observable-twitter-2021
