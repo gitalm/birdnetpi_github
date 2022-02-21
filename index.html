@@ -37,12 +37,8 @@
 	.style("margin", 5)
 	.classed("svg-content", true);
 	d3.select('#d3js').text("Macht Spaß 😎");
-	d3.csv("BirdDB.csv", function(data) {
-			for (var i=0; i < data.length; i++) {
-			console.log(data[i].Date);
-			console.log(data[i].Com_Name);
-			}
-		});
+	var dataset = d3.csv("BirdDB.csv"};
+	console.log(dataset);
 
 </body>
 </html> 
