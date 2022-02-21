@@ -2,7 +2,7 @@
 
 #BirdDB  contains alls identified Birds
 cp /home/pi/BirdNET-Pi/BirdDB.txt /home/pi/birdnetpi_github/BirdDB.csv
-sed -i 's/\;/\,/g' /home/pi/BirdNET-GitHub/BirdDB.csv
+sed -i 's/\;/\,/g' /home/pi/birdnetpi_github/BirdDB.csv
 cp /home/pi/BirdNET-Pi/IdentifiedSoFar.txt /home/pi/birdnetpi_github/
 echo "Textfiles copied"
 
