@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="ede>
-<meta charset="UTF-8">
+<html lang="de>
+<meta charset="utf-8">
 <title>Analyze Data with D3.js</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
  <!-- Latest compiled and minified CSS -->
@@ -37,7 +37,12 @@
 	.style("margin", 5)
 	.classed("svg-content", true);
 	d3.select('#d3js').text("Macht Spaß 😎");
-	var dataset = d3.csv("BirdDB.csv"};
+	var dataset = d3.csv("BirdDB.csv"};#
+	dataset.then(function(data) {
+		data.map(function(d) {
+			d.week = +d.week;
+			return d;});
+	}
 	console.log(dataset);
 
 </body>
