@@ -34,6 +34,11 @@
 			console.log(data[i].Com_Name);
 			}
 		});
+	var chart = new dimple.chart(svg, csv);
+	chart.addCategoryAxis("x", "Com_Name");
+	chart.addMeasureAxis("y", "Week");
+	chart.addSeries(null, dimple.plot.bar);
+	chart.draw();
 </script>
 
 </body>
